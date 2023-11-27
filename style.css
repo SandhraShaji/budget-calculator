@@ -1,0 +1,101 @@
+table{
+    border: 1px solid rgb(57, 39, 28,0.3);
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+table th{
+    border: 1px solid rgb(57, 39, 28,0.3);
+    padding: 10px;
+    padding-inline: 35px;
+}
+table td{
+    border: 1px solid rgb(57, 39, 28,0.3);
+}
+/* .col-5{
+    margin-left: 50px;
+} */
+/* #hi{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+#he{
+    margin-left: 110px;
+    margin-bottom: 20px;
+} */
+#log{
+    background-color: rgb(233, 198, 153, 0.7);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#logimg{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#btnlog{
+    background-color: rgb(57, 39, 28,0.9);
+    color: white;
+}
+#row1{
+    background-color: rgb(233, 198, 153,0.7);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#col1{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#col2{
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#col3{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#row2{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#colb{
+    background-color: rgb(82, 160, 160);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#cols{
+    background-color: gold;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#btni{
+    background-color: rgb(82, 160, 160);
+    font-weight: 500;
+}
+#btne{
+    background-color: gold;
+    font-weight: 500;
+}
+#row3{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#tabi{
+    background-color: rgb(82, 160, 160);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+#tabe{
+    background-color: gold;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
