@@ -86,8 +86,8 @@ function income(){
         user2.income.push(inc)
         user2.saving+=Number(amti.value)
         alert("Income added successfully.")
-        dispbal.innerHTML=user2.saving
-        dispsp.innerHTML=user2.spent  
+        dispbal.innerHTML='Rs. '+user2.saving
+        dispsp.innerHTML='Rs. '+user2.spent  
         localStorage.setItem(user2.em,JSON.stringify(user2))
         sessionStorage.setItem("users",JSON.stringify(user2))
         desi.value=""
@@ -118,8 +118,8 @@ function expense(){
         user3.saving-=Number(amte.value)
         user3.spent+=Number(amte.value)
         alert("Expense added successfully.")
-        dispbal.innerHTML=user3.saving
-        dispsp.innerHTML=user3.spent  
+        dispbal.innerHTML='Rs. '+user3.saving
+        dispsp.innerHTML='Rs. '+user3.spent  
         localStorage.setItem(user3.em,JSON.stringify(user3))
         sessionStorage.setItem("users",JSON.stringify(user3))
         dese.value=""

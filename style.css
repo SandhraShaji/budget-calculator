@@ -98,3 +98,42 @@ table td{
     box-shadow: 2px 2px 5px rgb(95, 95, 95);
     margin-left: 4px;
 }
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #logimg{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    #rowl{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #log{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+    #row1,#row3{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    #col1,#col3{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .col-5{
+        margin: 0;
+        padding: 0;
+    }
+    table th{
+        padding: 13px;
+        padding-inline: 10;
+    }
+}
