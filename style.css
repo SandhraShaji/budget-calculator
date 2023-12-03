@@ -10,17 +10,6 @@ table th{
 table td{
     border: 1px solid rgb(57, 39, 28,0.3);
 }
-/* .col-5{
-    margin-left: 50px;
-} */
-/* #hi{
-    margin-left: 110px;
-    margin-bottom: 20px;
-}
-#he{
-    margin-left: 110px;
-    margin-bottom: 20px;
-} */
 #log{
     background-color: rgb(233, 198, 153, 0.7);
     border-radius: 15px;
@@ -77,9 +66,17 @@ table td{
     background-color: rgb(82, 160, 160);
     font-weight: 500;
 }
+#btni:hover{
+    background-color: rgb(41, 81, 81);
+    color: white;
+}
 #btne{
     background-color: gold;
     font-weight: 500;
+}
+#btne:hover{
+    background-color: rgb(143, 130, 60);
+    color: white;
 }
 #row3{
     margin-left: 50px;
@@ -93,9 +90,11 @@ table td{
     background-color: rgb(82, 160, 160);
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgb(95, 95, 95);
+    margin-left: 4px;
 }
 #tabe{
     background-color: gold;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgb(95, 95, 95);
+    margin-left: 4px;
 }
